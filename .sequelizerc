@@ -1,0 +1,12 @@
+// PARA PODER USAR O SEQUELIZE CLI
+
+const path = require('path')
+
+
+module.exports = {
+    // PEGA A CONNEXÃO COM O BANCO DE DADOS, PARA CRIAR A DATABASE
+config: path.resolve(__dirname, 'sql', 'database', 'bd.js'),
+
+    // ONDE SALVARÁ AS MIGRATION
+    'migrations-path': path.resolve(__dirname, 'sql', 'migrations')
+}
