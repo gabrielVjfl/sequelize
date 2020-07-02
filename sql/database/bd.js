@@ -2,10 +2,11 @@
 
 module.exports = {
     dialect: 'mysql',
-    host: 'localhost',
-    username: 'root',
-    password: '',
-    database: 'sqlproject',
+    host: 'localhost', // servidor
+    username: 'root', // usuario
+    password: '',    // senha
+    database: 'sqlproject', //dbname
+
     define: {
         timestamps: true,
         underscored: true
